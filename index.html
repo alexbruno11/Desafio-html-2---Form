@@ -1,0 +1,230 @@
+<!--
+
+[x] Retirar todos os br
+[x] Tirar o fieldset mantendo o mesmo visual
+
+   Ao passar o mouse sobre os botões enviar e limpar:
+[x] Trocar a cor de fundo
+[] Aumentar o botão
+[] trocar a cor da letra
+[] trocar a cor da borda
+[] Alterar a cor da borda de todos os inputs
+[] Alterar a fonte do projeto para "Nunito"
+[x] Alterar o background do formulário
+[] Alterar cor e tamanho dos labels
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+    
+
+
+
+
+</head>
+
+
+<body>
+
+    <form action="" method="POST" enctype="multipart/form-data" class="container">
+
+
+
+
+        <h1 id="title">Cadastro Code Club</h1>
+
+
+
+
+
+        <label for="name">
+            Nome
+
+            <input type="Name" name="Name" placeholder="Digite seu nome" autofocus>
+        </label>
+
+
+
+
+
+        <label for="e-mail" id="e-mail">E-mail
+
+            <input type="email" name="e-mail" placeholder="Digite seu e-mail">
+
+
+        </label>
+
+
+
+
+
+
+
+
+        <label for="idade" id="age" required>Idade
+
+            <input type="number" name="idade" required max="100" min="12">
+
+        </label>
+
+
+
+
+
+
+
+
+
+        <label for="date">
+            Data de nascimento
+
+            <input type="date" name="Data" id="data">
+
+
+
+
+
+
+
+        </label>
+
+        <div class="typetext">
+            
+            <label for="checkbox"> <p> Onde você possui conta? </p>
+
+                                    
+                <input type="checkbox" name="Facebook" class="check">
+                Facebook
+    
+                <input type="checkbox" name="Instagram" class="check">
+                Instagram
+    
+                <input type="checkbox" name="Twitter" class="check">
+                Twitter
+    
+            </label>
+
+        </div>
+       
+        
+
+
+        <div class="radio">  
+            <label for="radio"> 
+                        <p>Sexo</p>
+                <input type="radio" name="opção">Masculino
+    
+                <input type="radio" name="opção">Feminino
+            </label>
+
+        </div>
+       
+
+
+
+
+
+        <label for=""> Cor dos Olhos
+            <input type="color" name="cor dos olhos">
+
+        </label>
+
+
+
+
+        <label for=""> Biografia
+            <textarea name="Biografia" id="describeyourself" cols="30" rows="5"></textarea>
+
+        </label>
+
+
+
+
+        <div class="file">
+
+                    
+            <label for="photo file"> Foto do Perfil
+
+
+            <input type="file" accept="image/*" name="Foto do perfil">
+
+            </label>
+
+         </div>
+
+
+
+
+            <div class="telephone">
+                <label for="telephone"> Telefone
+                    <input type="tel" max="11">
+                </label>
+
+            </div>
+
+
+
+        
+
+
+
+
+
+        <label for="url"> Link Perfil do Facebook
+
+            <input type="url" name="url" id="">
+
+        </label>
+
+
+
+
+
+        <label for=""> Senha
+            <input type="password" required minlength="6" maxlength="8" name="senha" id="">
+        </label>
+
+
+
+
+
+
+        <div class="button">
+
+            <label for="button">
+
+                <button type="Reset" name="reset"
+                class="btn">
+                    Limpar
+                </button>
+    
+                <button type="submit" name="submit" class="btn">
+                    Enviar
+                </button>
+    
+            </label>
+    
+
+        </div>
+        
+
+
+
+
+
+    </form>
+
+</body>
+
+
+</html>
